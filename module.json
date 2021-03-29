@@ -1,0 +1,106 @@
+{
+	"name": "CSV Output",
+	"type": "OS",
+	"path": "System",
+	
+	"version": "0.1",
+	"description": "Save values into a csv file",
+	"url":"https://github.com/moltenryan/",
+	"downloadURL": "https://github.com/moltenryan/",
+
+	"hasInput": false,
+	"hasOutput": true, 
+	"hideDefaultCommands": true,
+
+	"parameters": 
+	{
+		"CSV File":
+		{
+			"type":"File",
+			"description":"Select a csv to save to"
+		},
+
+	},
+
+	
+	"scripts": [
+		"csv.js"
+	],
+	
+	"commands": 
+	{
+		"Add Integer":
+		{
+			"callback":"addInt",
+			"parameters":
+			{
+				"Data":
+				{
+					"type":"Integer",
+				}
+			}
+		},
+
+		"Add Float":
+		{
+			"callback":"addFloat",
+			"parameters":
+			{
+
+				"Data":
+				{
+					"type":"Float",
+				}
+			}
+		},
+
+		"Add String":
+		{
+			"callback":"addString",
+			"parameters":
+			{
+
+				"Data":
+				{
+					"type":"String",
+				}
+			}
+		},
+
+		"Add Boolean":
+		{
+			"callback":"addBool",
+			"parameters":
+			{
+
+				"Data":
+				{
+					"type":"Bool",
+				}
+			}
+		},
+
+		"Add Color":
+		{
+			"callback":"addColor",
+			"parameters":
+			{
+
+				"Data":
+				{
+					"type":"Color",
+				}
+			}
+		},
+
+		"Add New Row":
+		{
+			"callback":"addRow",
+		},
+
+		"Save CSV":
+		{
+			"callback":"saveCSV",
+		},
+	}
+}
