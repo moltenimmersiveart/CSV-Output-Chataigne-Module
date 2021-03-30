@@ -75,32 +75,19 @@
 
 				"Data":
 				{
-					"type":"Bool",
+					"type":"Boolean",
 				}
 			}
 		},
 
-		"Add Color":
+		"Add Timestamp":
 		{
-			"callback":"addColor",
-			"parameters":
-			{
-
-				"Data":
-				{
-					"type":"Color",
-				}
-			}
+			"callback":"addTimeStamp",
 		},
 
-		"Add New Row":
+		"Save Row To File":
 		{
-			"callback":"addRow",
-		},
-
-		"Save CSV":
-		{
-			"callback":"saveCSV",
+			"callback":"saveToFile",
 		},
 	}
 }
