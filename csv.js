@@ -42,6 +42,11 @@ function addTimeStamp() {
 	buffer.push(t);
 }
 
+function addTime() {
+	var t = util.getTime();
+	buffer.push(t);
+}
+
 function saveToFile() {
 	if(buffer.length > 0) {
 

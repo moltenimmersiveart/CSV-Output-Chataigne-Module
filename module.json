@@ -80,6 +80,11 @@
 			}
 		},
 
+		"Add Time":
+		{
+			"callback":"addTime",
+		},
+
 		"Add Timestamp":
 		{
 			"callback":"addTimeStamp",
