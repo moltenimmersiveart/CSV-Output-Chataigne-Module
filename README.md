@@ -2,8 +2,8 @@
 Output values into an external CSV file.
 
 ## How to use
-Create a csv file (this can be blank). Then, in the module's parameters, browse and select this file.
+Create a csv file (this can be blank). 
 
-Adding a value adds is like adding a cell to the csv. Adding multiple values builds up a row in the csv.
+In Chataigne add the <strong>CSV Output module</strong> (System > CSV Output). In the modulees parameters, under CSV File, browse and select the csv file you created.
 
-Saving the row to the file starts a new row.
+Data can be added to the csv as an Action consequence. Each time you add data you create a new value in the csv row. This data is only saved to the file when <strong>Save Row to File</strong> is called.
